@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Lab 3+4</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <h3>Bài 1 (2 điểm): Tạo nút chức năng viết mã javascript để thực hiện các phép tính số học.</h3>
+     <button class="btn1" onclick="tinhToan()">Cick here</button>
+
+     <h3>Bài 2 (2 điểm): Máy tính</h3>
+     <div class="calculator">
+          <div id="hienthi">0</div>
+          <div class="buttons">
+              <button onclick="toan_hang(1)">1</button>
+              <button onclick="toan_hang(2)">2</button>
+              <button onclick="toan_hang(3)">3</button>
+              <button onclick="toan_tu('+')">+</button>
+              <button onclick="toan_hang(4)">4</button>
+              <button onclick="toan_hang(5)">5</button>
+              <button onclick="toan_hang(6)">6</button>
+              <button onclick="toan_tu('-')">-</button>
+              <button onclick="toan_hang(7)">7</button>
+              <button onclick="toan_hang(8)">8</button>
+              <button onclick="toan_hang(9)">9</button>
+              <button onclick="toan_tu('*')">*</button>
+              <button onclick="toan_hang(0)">0</button>
+              <button onclick="thuc_hien()">=</button>
+              <button onclick="lam_lai()">C</button>
+              <button onclick="toan_tu('/')">/</button>
+          </div>
+      </div>
+     
+
+     <h3>Bài 3 (2 điểm): Trò dao búa kéo (Oẳn tù tì)</h3>
+     <button class="btn1" onclick="getValue(0)">Bao🖐</button>
+     <button class="btn1" onclick="getValue(1)">Búa👊</button>
+     <button class="btn1" onclick="getValue(2)">Kéo✌</button>
+
+     <h3>Bài 4 (2 điểm):
+          Tạo các nút chức năng trên trang html và viết mã javascript để quản lý Danh mục
+          sản phẩm.</h3>
+     <button class="btn2" onclick="themSp()">Thêm sản phẩm</button><br>
+     <button class="btn2" onclick="xemSp()">Xem danh sách sản phẩm</button><br>
+     <button class="btn2" onclick="timKiemSp()">Tìm kiếm sản phẩm</button><br>
+     <button class="btn2" onclick="xoaSp()">Xóa sản phẩm</button><br>
+     <button class="btn2" onclick="banSp()">Bán sản phẩm</button><br>
+     <button class="btn2" onclick="nhapThemSp()">Nhập thêm Sản Phẩm</button><br>
+     <button class="btn2" onclick="kiemTraTonKho()">Kiểm tra tồn kho</button><br>
+
+     <h3>Bài 5 (2 điểm):
+          Tạo các nút chức năng trên trang html và viết mã javascript để quản lý Sinh Viên</h3>
+     <button onclick="themSv()" class="btn2">Thêm Sinh Viên</button>
+     <button onclick="xemdsSv()" class="btn2">Xem danh sách Tên Sinh viên</button>
+     <button onclick="timKiemSv()" class="btn2">Tìm kiếm sinh viên</button>
+     <button onclick="xoaSv()" class="btn2">Xóa sinh viên</button>
+     <button onclick="suaDiem()" class="btn2">Sửa Điểm</button>
+     <button onclick="xeploaihocluc()" class="btn2">Trao bằng khen</button>
+     <button onclick="xuatdanhsach()" class="btn2">Xuất Danh sách Sinh viên có bằng khen.</button>
+
+
+     <script src="app.js"></script>
+</body>
+
+</html>
